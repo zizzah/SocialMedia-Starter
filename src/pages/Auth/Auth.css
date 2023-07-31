@@ -1,0 +1,37 @@
+.Auth{
+    display: flex;
+    gap: 4rem;
+    background-color: var(--CardColor);
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}
+.Auth>div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.a-left{
+    gap: 2rem;
+}
+.a-left>img{
+    gap: 4rem;
+    height: 4rem;
+}
+.webName>h1{
+  font-size: 3rem;
+  background-color: red;
+  background-image: var(--image);
+  background-size: 100%;
+  background-repeat: repeat;
+  -webkit-background-clip: text;  
+  -webkit-text-fill-color: transparent;
+  -moz-background-clip: text;
+  -moz-text-fill-clip:transparent
+}
+
+.webName>h6{
+    font-size: 0.85rem;
+}

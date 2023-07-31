@@ -1,0 +1,39 @@
+.infoForm{
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 1rem;
+}
+.infoForm{
+    background-color: var(--cardColor);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+form>h3{
+    align-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+form>div{
+    display: flex;
+    justify-content: center;
+    gap:1rem;
+    height: 2rem;
+    align-items: center;
+}
+
+.infoInput{
+    outline: none;
+    background-color: var(--inputColor);
+    border: none;
+    border-radius: 8px;
+    padding: 20px;
+    flex: 1;
+}
+.infoButton{
+      width: 6rem;
+      height: 2rem;
+      align-self: flex-end;
+}
